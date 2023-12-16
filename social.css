@@ -1,0 +1,107 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: "Nunito", sans-serif;
+}
+
+body {
+  background: #1f1f47
+}
+
+h1{
+   margin-top: 20px;
+  font-size: 80px;
+  text-align: center;
+  font-family: 'Lucida handwriting', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:#5c9df1;
+}
+
+.container {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.card {
+  width: 800px;
+  min-height: 250px;
+  background: rgba( 255, 255, 255, 0.15 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 18px );
+  -webkit-backdrop-filter: blur( 18px );
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  border-radius: 1rem;
+  padding: 1.5rem;
+  z-index: 10;
+  color: whitesmoke;
+}
+
+.title {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+
+.blob {
+  border-radius: 1rem;
+  position: absolute;
+  width: 800px;
+  height: 250px;
+  background: linear-gradient(
+    180deg,
+    rgba(47, 184, 255,0.42) 31.77%,
+    #5c9df1 100%
+  );
+ 
+}
+
+.links{
+  display:flex;
+  flex-direction:row;
+
+
+}
+
+
+
+.btn{
+  height:70px;
+  width:70px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  
+}
+
+
+
+#1{
+  background-image: url(\instalogo); 
+ 
+}
+
+
+
+#2{
+  background-image: url(\gitlogo.png);
+  
+}
+
+
+#3{
+  background-image: url(\Twitter.png);
+ 
+}
+
+
+
